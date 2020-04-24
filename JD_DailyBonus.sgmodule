@@ -1,0 +1,6 @@
+#!name=JD_DailyBonus
+#!desc=京东签到
+#!system=ios
+
+[Script]
+JD_DailyBonus = type=cron,cronexp=3 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
