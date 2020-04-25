@@ -10,9 +10,10 @@ Draft = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com
 Adguard = script-path=https://raw.githubusercontent.com/iganymede/GYMD/master/adg.js,script-update-interval=0,type=http-request,pattern=https://mobile-api.adguard.com/api/1.0/status.html
 WangYi = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js,type=http-response,pattern=^https?://p.du.163.com/gain/readtime/info.json
 Mimo = type=http-response,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/mimo.vip.js,pattern=^https:\/\/api\.getmimo\.com\/v1\/subscriptions$
+Drops = type=http-response,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/drops.js,pattern= ^https:\/\/lambda\.us-east-1\.amazonaws\.com/.*/functions\/prod-4-syncPurchases\/invocations$
 Fantastical = requires-body=1,max-size=0,type=http-response,script-path=https://raw.githubusercontent.com/iganymede/GYMD/master/fantastical.js,pattern=^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$
 wb_launch = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js,type=http-response,pattern=^https?://(sdk|wb)app.uve.weibo.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua)
 wb_ad = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js,type=http-response,pattern=^https?://m?api.weibo.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status)
 
 [MITM]
-hostname = %APPEND% mobile-api.adguard.com,backend.getdrafts.com,vsco.co,buy.itunes.apple.com,api.weibo.cn, mapi.weibo.com,*.uve.weibo.com,www.xmind.cn,api.flexibits.com,api.getmimo.com
+hostname = %APPEND% mobile-api.adguard.com,backend.getdrafts.com,vsco.co,buy.itunes.apple.com,api.weibo.cn, mapi.weibo.com,*.uve.weibo.com,www.xmind.cn,api.flexibits.com,api.getmimo.com,lambda.us-east-1.amazonaws.com
