@@ -15,7 +15,6 @@ Bahamut-response = type=http-response,pattern=https:\/\/api\.gamer\.com\.tw\/mob
 Youdao = type=http-response,pattern=https://note.youdao.com/yws/(mapi/payment|api/self),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/ydybj.js
 Timeblocks1 = type=http-response,pattern=^http:\/\/box\.gettimeblocks\.com\/api,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iganymede/GYMD/master/TBS.js
 Timeblocks2 = type=http-response,pattern=^https:\/\/timeblocks\.com\/api,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iganymede/GYMD/master/TBS.js
-Marvel = type=http-response,pattern=https:\/\/.*\.com\/marvel\/services,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/manwei.js
 
 [MITM]
-hostname = %APPEND% buy.itunes.apple.com,mobile-api.adguard.com,backend.getdrafts.com,vsco.co,api.getmimo.com,lambda.us-east-1.amazonaws.com,api.gamer.com.tw,note.youdao.com,timeblocks.com,box.gettimeblocks.com,new.marvelunlimitedresources.com,p.du.163.com
+hostname = %APPEND% buy.itunes.apple.com,mobile-api.adguard.com,backend.getdrafts.com,vsco.co,api.getmimo.com,lambda.us-east-1.amazonaws.com,api.gamer.com.tw,note.youdao.com,timeblocks.com,box.gettimeblocks.com,p.du.163.com
