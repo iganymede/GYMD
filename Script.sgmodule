@@ -10,8 +10,6 @@ Mimo = type=http-response,requires-body=1,max-size=0,script-path=https://raw.git
 Drops = type=http-response,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/drops.js,pattern= ^https:\/\/lambda\.us-east-1\.amazonaws\.com/.*/functions\/prod-4-syncPurchases\/invocations$
 Youdao = type=http-response,pattern=https://note.youdao.com/yws/(mapi/payment|api/self),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/ydybj.js
 Fantastical = type=http-response,pattern=^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iganymede/GYMD/master/fantastical.js
-動畫瘋(Req) = type=http-request,pattern=https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php,script-path=https://raw.githubusercontent.com/iganymede/GYMD/master/Bahamut.js
-動畫瘋(Res) = type=http-response,pattern=https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iganymede/GYMD/master/Bahamut.js
 
 [MITM]
-hostname = %APPEND% buy.itunes.apple.com,backend.getdrafts.com,vsco.co,api.getmimo.com,lambda.us-east-1.amazonaws.com,note.youdao.com,api.flexibits.com,api.gamer.com.tw
+hostname = %APPEND% buy.itunes.apple.com,backend.getdrafts.com,vsco.co,api.getmimo.com,lambda.us-east-1.amazonaws.com,note.youdao.com,api.flexibits.com
