@@ -9,8 +9,6 @@ Draft = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com
 Mimo = type=http-response,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/mimo.vip.js,pattern=^https:\/\/api\.getmimo\.com\/v1\/subscriptions$
 Drops = type=http-response,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/drops.js,pattern= ^https:\/\/lambda\.us-east-1\.amazonaws\.com/.*/functions\/prod-4-syncPurchases\/invocations$
 Fantastical = type=http-response,pattern=^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iganymede/GYMD/master/fantastical.js
-Timeblocks1 = type=http-response,pattern=^http:\/\/box\.gettimeblocks\.com\/api,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iganymede/GYMD/master/TBS.js
-Timeblocks2 = type=http-response,pattern=^https:\/\/timeblocks\.com\/api,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iganymede/GYMD/master/TBS.js
 
 [MITM]
-hostname = %APPEND% buy.itunes.apple.com,vsco.co,backend.getdrafts.com,api.getmimo.com,lambda.us-east-1.amazonaws.com,api.flexibits.com,timeblocks.com,box.gettimeblocks.com
+hostname = %APPEND% buy.itunes.apple.com,vsco.co,backend.getdrafts.com,api.getmimo.com,lambda.us-east-1.amazonaws.com,api.flexibits.com
